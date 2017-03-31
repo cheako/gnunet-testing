@@ -1,0 +1,29 @@
+# This will run on Travis' 'new' container-based infrastructure
+sudo: false
+
+# Blacklist
+branches:
+  except:
+  - gh-pages
+
+# Environment variables
+env:
+  global:
+  - GNUNET_COMMIT: c8215b96
+  - GH_REPO_NAME: gnunet-testing
+  - GH_REPO_REF: github.com/cheako/gnunet-testing.git
+
+services:
+- docker
+
+before_install:
+- git config --global http.sslVerify false
+- git clone --depth 200 --single-branch https://gnunet.org/git/gnunet.git
+- ( cd gnunet && git checkout $GNUNET_COMMIT; )
+- tar -cz --exclude-vcs -f gnunet_0.11.0+git20170401.c8215b96.orig.tar.gz gnunet
+- cp -a debian gnunet/debian
+- docker build -t gnunet-git .
+- env | grep -e GNUNET_COMMIT -e ^GH_ -e ^TRAVIS_ > env.list
+
+script:
+- docker run --env-file ./env.list gnunet-git
