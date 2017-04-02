@@ -4,9 +4,9 @@ Maintainer: Mike Mestnik <cheako+apt_repo@mikemestnik.net>
 Build-Depends: debhelper (>= 9), dh-autoreconf, libgcrypt20-dev (>= 1.6.0), libidn11-dev (>= 1.0.0), zlib1g-dev, libunistring-dev (>= 0.9.1)
 Standards-Version: 3.9.5
 Section: net
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/gnunet.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/gnunet.git;a=summary
+Homepage: https://gnunet.org
+Vcs-Git: https://github.com/cheako/gnunet-testing.git
+Vcs-Browser: https://github.com/cheako/gnunet-testing
 
 Package: gnunet
 Architecture: any
