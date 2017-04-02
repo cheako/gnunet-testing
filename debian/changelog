@@ -1,4 +1,4 @@
-gnunet (0.11.0-1) unstable; urgency=low
+gnunet (0.11.0+git20170401.c8215b96-0debian0cheako~stretch) stretch; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
