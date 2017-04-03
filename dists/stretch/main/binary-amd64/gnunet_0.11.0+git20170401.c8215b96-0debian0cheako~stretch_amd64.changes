@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 31 Mar 2017 12:56:24 -0500
+Source: gnunet
+Binary: gnunet
+Architecture: source amd64
+Version: 0.11.0+git20170401.c8215b96-0debian0cheako~stretch
+Distribution: stretch
+Urgency: low
+Maintainer: Mike Mestnik <cheako+apt_repo@mikemestnik.net>
+Changed-By: Mike Mestnik <cheako+apt_repo@mikemestnik.net>
+Description:
+ gnunet     - <insert up to 60 chars description>
+Changes:
+ gnunet (0.11.0+git20170401.c8215b96-0debian0cheako~stretch) stretch; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ e8da5df0afb33099d0c67b26f62326f3d2aded22 1262 gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch.dsc
+ 639c970f59b2342216ba3f2b845097d495406a19 16089613 gnunet_0.11.0+git20170401.c8215b96.orig.tar.gz
+ cdc01e66f393e160804b2c20b43c1267928827d6 9252 gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch.debian.tar.xz
+ 09d9925d83a625c9edfef2c312de6826f1f0987a 4579520 gnunet-dbgsym_0.11.0+git20170401.c8215b96-0debian0cheako~stretch_amd64.deb
+ b0b77fbfb9a70628ce74184f2da535075b41b661 5279 gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch_amd64.buildinfo
+ 4e4d9c83b9d4303e82690e19f45be5709e0bcf94 1841364 gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch_amd64.deb
+Checksums-Sha256:
+ 552c55273189fa4e09d7aa1c93ef8e84b2ad5532e720bfda539287656c0612b0 1262 gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch.dsc
+ 6003831e6eb33c317d77bbc569ff9b0723cf8344a478172812a52c36cc2a151f 16089613 gnunet_0.11.0+git20170401.c8215b96.orig.tar.gz
+ 429927c7ce728142e18ed778ee4acc19a98fd6523a117a0ef00bd65884878f2b 9252 gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch.debian.tar.xz
+ 6b87bb6225a9325a33253757d02b5ef917ce0fac49c8597bdd798ffd6af536d7 4579520 gnunet-dbgsym_0.11.0+git20170401.c8215b96-0debian0cheako~stretch_amd64.deb
+ 456e5a7d2528e79a1bbb20c1140999e85169efcef34833a48cc68bcb135434a3 5279 gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch_amd64.buildinfo
+ 2cfb0fb71c81e91530012599f464ce354bb5560ea6d6d2634947ace7df24afb4 1841364 gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch_amd64.deb
+Files:
+ 3437a7b0646d5a14fdddfab441dcb1a8 1262 net optional gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch.dsc
+ edd5284272a1931b368e26e061340b98 16089613 net optional gnunet_0.11.0+git20170401.c8215b96.orig.tar.gz
+ 1bbfb1f241bc2cb9a5b020a084452618 9252 net optional gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch.debian.tar.xz
+ 16f09e06f497c5fb20957efc3d9bb25b 4579520 debug extra gnunet-dbgsym_0.11.0+git20170401.c8215b96-0debian0cheako~stretch_amd64.deb
+ b264f79a9853579cf690f83a7fc41654 5279 net optional gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch_amd64.buildinfo
+ 93a6c5c94c38f01127382dab0f5f225f 1841364 net optional gnunet_0.11.0+git20170401.c8215b96-0debian0cheako~stretch_amd64.deb
